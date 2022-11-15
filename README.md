@@ -7,9 +7,8 @@
 
 - 🌱 I’m currently learning **Python :)**
 
-- 👨‍💻 All of my projects are available at [https://github.com/s3bu7i?tab=repositories](https://github.com/s3bu7i?tab=repositories)
+- 👨‍💻 All of my projects are available at <a href="https://github.com/s3bu7i?tab=repositories">Respositorys</a>
 
-- 📝 I regularly write articles on [https://medium.com/@sabuhi.gasimzada](https://medium.com/@sabuhi.gasimzada)
 
 - 💬 Ask me about **some security issues**
 
