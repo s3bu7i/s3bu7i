@@ -10,7 +10,7 @@
 - 👨‍💻 All of my projects are available at <a href="https://github.com/s3bu7i?tab=repositories">Respositorys</a>
 
 
-- 💬 Ask me about **some security issues**
+- 💬 Ask me about **Evrythings :D**
 
 - 📫 How to reach me **sabuhi.gasimzada@gmail.com**
 
