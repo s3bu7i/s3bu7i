@@ -1,3 +1,4 @@
+[![](https://visitcount.itsvg.in/api?id=s3bu7i&icon=2&color=1)](https://visitcount.itsvg.in)
 # 💫 About Me:
 🔭 I’m currently working on Freelance<br>📫 How to reach me sabuhi.gasimzada@gmail.com<br>🌱 I’m currently learning Python<br>💬 Ask me about all questions related to programming<br>⚡ Fun fact read books and listen to music )
 
@@ -15,5 +16,3 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
----
-[![](https://visitcount.itsvg.in/api?id=s3bu7i&icon=2&color=1)](https://visitcount.itsvg.in)
