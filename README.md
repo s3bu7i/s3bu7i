@@ -19,4 +19,4 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/snake.svg" alt="Snake animation" />
+![snake gif](https://github.com/s3bu7i/s3bu7i/blob/output/github-contribution-grid-snake.gif)
