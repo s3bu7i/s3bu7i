@@ -30,4 +30,3 @@
 </div>
 <br clear="both">
 <img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/snake.svg" alt="Snake animation" />
-
