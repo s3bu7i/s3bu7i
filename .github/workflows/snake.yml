@@ -32,8 +32,10 @@ jobs:
         
       - name: Debug
         run: |
-          echo "GitHub User Name: ${{ github.actor }}"
+          echo "GitHub Actor: ${{ github.actor }}"
+          echo "GitHub Token: ${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
