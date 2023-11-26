@@ -1,0 +1,28 @@
+name: Generate GitHub Activity Snake
+
+on:
+  workflow_run:
+    workflows: ["s3bu7i"]
+    types:
+      - completed
+
+jobs:
+  generate_snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake SVG
+        uses: Platane/snk@master
+        with:
+          github_user_name: s3bu7i
+          outputs: dist/snake.svg
+
+      - name: Commit SVG
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add dist/snake.svg
+          git commit -m "Update GitHub Activity Snake SVG"
+          git push
