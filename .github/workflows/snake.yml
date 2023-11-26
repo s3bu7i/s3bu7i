@@ -18,7 +18,7 @@ jobs:
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: s3bu7i
           outputs: dist/snake.svg
 
 
@@ -32,7 +32,7 @@ jobs:
         
       - name: Debug
         run: |
-          echo "GitHub User Name: ${{ github.repository_owner }}"
+          echo "GitHub User Name: s3bu7i"
           echo "GitHub Token: ${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
