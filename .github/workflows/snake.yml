@@ -41,7 +41,7 @@ jobs:
           branch: master
           force: true
 
-      - uses: crazy-max/ghaction-github-pages@v2.9.0  # Updated to a version supporting Node.js 20
+      - uses: crazy-max/ghaction-github-pages@v4.0.0  # Updated to a version supporting Node.js 20
         with:
           # The output branch we mentioned above
           target_branch: output
