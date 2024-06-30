@@ -34,5 +34,5 @@
 </div>
 <h2>🏆 GitHub Trophies</h2>
 <img src="https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)"/>
-<img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
