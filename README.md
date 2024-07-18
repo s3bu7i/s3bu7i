@@ -32,6 +32,9 @@
   <img src="https://streak-stats.demolab.com?user=s3bu7i&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="150" alt="streak graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=s3bu7i&locale=en&hide_title=false&layout=compact&card_width=330&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
 </div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" alt="CODSOFT Logo" />
+</div>
 <h2>🏆 GitHub Trophies</h2>
 <img src="https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)"/>
 <img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
