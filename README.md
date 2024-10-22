@@ -2,7 +2,7 @@
   <img height="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
 </div>
 <div align="center">
-  <a href="https://linkedin.com/in/https://linkedin.com/in/sabuhi-gasimzada" target="_blank">
+  <a href="https://www.linkedin.com/in/sabuhi-gasimzada/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=plastic" height="25" alt="linkedin logo"  />
   </a>
   <a href="https://facebook.com/https://www.facebook.com/profile.php?id=100049594601360" target="_blank">
