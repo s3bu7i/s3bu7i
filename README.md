@@ -1,17 +1,17 @@
 <div align="center">
   <img height="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
 </div>
-<div align="center">
-  <a href="https://www.linkedin.com/in/sabuhi-gasimzada/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=plastic" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://facebook.com/https://www.facebook.com/profile.php?id=100049594601360" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=plastic" height="25" alt="facebook logo"  />
-  </a>
-  <a href="https://instagram.com/the._.sbh" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=plastic" height="25" alt="instagram logo"  />
-  </a>
-</div>
+<p align="center">
+ <div align="center"  class="icons-social" style="margin-left: 15px;">
+        <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/sabuhi-gasimzada/">
+			<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
+        <a style="margin-left: 10px;" target="_blank" href="https://github.com/s3bu7i">
+		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
+        <a style="margin-left: 10px;" target="_blank" href="https://instagram.com/the._.sbh">
+			<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
+  </div>
+
+</p>
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=s3bu7i.s3bu7i&"  />
 </div><br>
@@ -37,7 +37,7 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=s3bu7i&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="150" alt="streak graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=s3bu7i&locale=en&hide_title=false&layout=compact&card_width=330&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=s3bu7i&locale=en&hide_title=false&layout=compact&card_width=330&langs_count=5&theme=codeSTACKr&hide_border=false" height="150" alt="languages graph"  />
 </div>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" alt="CODSOFT Logo" />
@@ -45,4 +45,3 @@
 <h2>🏆 GitHub Trophies</h2>
 <img src="https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)"/>
 <img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
