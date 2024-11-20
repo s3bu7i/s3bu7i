@@ -27,8 +27,15 @@
 
 
 <h2>📊 GitHub Stats:</h2>
+<table>
+<tr>
+<td><img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=s3bu7i&amp;theme=monokai" alt="" width="100%" /></td>
+<td><img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=s3bu7i&amp;theme=monokai&amp;utcOffset=8" alt="" width="100%" /></td>
+<td><img src="https://awesome-github-stats.azurewebsites.net/user-stats/s3bu7i?cardType=level-alternate&amp;theme=gruvbox&show_icons=true&amp;Text=DDA22A" alt="s3bu7i's GitHub Stats" width="100%" /></td>
+</tr>
+</table>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=s3bu7i&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=s3bu7i&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="150" alt="streak graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=s3bu7i&locale=en&hide_title=false&layout=compact&card_width=330&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
 </div>
