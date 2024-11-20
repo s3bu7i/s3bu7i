@@ -40,7 +40,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=s3bu7i&locale=en&hide_title=false&layout=compact&card_width=330&langs_count=5&theme=codeSTACKr&hide_border=false" height="150" alt="languages graph"  />
 </div>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" alt="CODSOFT Logo" />
+	<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
 </div>
 <h2>🏆 GitHub Trophies</h2>
 <img src="https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)"/>
