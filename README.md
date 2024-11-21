@@ -42,6 +42,27 @@
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
 </div>
-<img src="github-metrics.svg"/>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <table>
+    <tr>
+      <td>
+        <div style="flex: 1;">
+          <!-- Left Content -->
+          <!-- Rotated Image -->
+          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 100%; height: 360px;"/>
+        </div>
+      </td>
+      <td>
+        <div style="margin-left: 20px;">
+          <!-- Right SVG -->
+          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" style="max-width: 100%; height: 410px; transform: rotate(90deg);"/>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
 
 <img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
