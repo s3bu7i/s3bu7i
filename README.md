@@ -49,7 +49,7 @@
         <div style="flex: 1;">
           <!-- Left Content -->
           <!-- Rotated Image -->
-          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 70%; height: 340px;"/>
+          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 30%; height: 340px;"/>
         </div>
       </td>
       <td>
