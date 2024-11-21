@@ -55,7 +55,7 @@
       <td>
         <div style="margin-left: 20px;">
           <!-- Right SVG -->
-          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" style="max-width: 100%; height: 410px; transform: rotate(90deg);"/>
+          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" style="max-width: 70%; height: 410px; transform: rotate(90deg);"/>
         </div>
       </td>
     </tr>
