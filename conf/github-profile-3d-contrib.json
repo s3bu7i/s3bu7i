@@ -1,5 +1,12 @@
 [
     {
+  "username": "s3bu7i",
+  "theme": "default",
+  "animation": true,
+  "output": "profile-3d-contrib"
+    }
+
+    {
         "type": "normal",
         "fileName": "day.svg",
         "backgroundColor": "#ffffff",
