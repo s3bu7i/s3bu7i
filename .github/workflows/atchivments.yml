@@ -27,7 +27,7 @@ jobs:
           # Options
           user: s3bu7i
           template: classic
-          base: ""
+          base: "repositories"
           config_timezone: Asia/Baku
           plugin_achievements: yes
           plugin_achievements_display: compact
