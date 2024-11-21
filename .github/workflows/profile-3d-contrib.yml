@@ -27,7 +27,7 @@ jobs:
           SETTING_JSON: conf/github-profile-3d-contrib.json
           
       # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>, or as GitHub Pages
       - name: push SVGs to the output-3d branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
