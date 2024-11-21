@@ -42,6 +42,6 @@
 <div align="center">
 	<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
 </div>
-<h2>🏆 GitHub Trophies</h2>
-<img src="https://github-profile-trophy.vercel.app/?username=s3bu7i&theme=radical&no-frame=false&no-bg=true&margin-w=4)"/>
+<img src="github-metrics.svg"/>
+
 <img src="https://raw.githubusercontent.com/s3bu7i/s3bu7i/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
