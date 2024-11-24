@@ -48,11 +48,11 @@
       <td>
         <div style="flex: 1;">
           <!-- Rotated Image -->
-          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 90%; height: 340px;"/>
+          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 100%; height: 340px;"/>
         </div>
       </td>
       <td>
-        <div style="margin-left: 8px;">
+        <div style="margin-left: 10px;">
           <!-- Right SVG -->
           <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" style="max-width: 70%; height: 350px; transform: rotate(90deg);"/>
         </div>
