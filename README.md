@@ -16,8 +16,7 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=s3bu7i.s3bu7i&"  />
 </div><br>
 <div align="left" ><h2>👩‍💻  About Me</h2>
-I love code <img src="cat-typing.gif" align="center">  and unicorns <img src="unicorn.gif" align="center"> <img style="width: 85px;">
- <img src="counter.gif" align="center"> <img src="badge1.gif" align="center"> <img src="badge4.gif" align="center"> <img src="badge5.gif" align="center">
+I love code <img src="cat-typing.gif" align="center">  and unicorns <img src="unicorn.gif" align="center"> <img style="width: 85px;"> <img src="badge1.gif" align="center"> <img src="badge4.gif" align="center"> <img src="badge5.gif" align="center">
  <img src="party-furby.gif" align="center">       
 </div>
 <div align="right">
