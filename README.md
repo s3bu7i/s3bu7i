@@ -16,7 +16,8 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=s3bu7i.s3bu7i&"  />
 </div><br>
 <div align="left" ><h2>👩‍💻  About Me</h2>
-🔭 I’m currently working on Freelance<br>📫 How to reach me sabuhi.gasimzada@gmail.com<br>🌱 I’m currently learning Python&Cyber Security<br>⚡ Fun fact hack any system and listen to music :D
+I love code <img src="cat-typing.gif" align="center">  and unicorns <img src="unicorn.gif" align="center"> ![](counter.gif) ![](badge1.gif) ![](badge2.gif) ![](badge5.gif)
+ <img src="party-furby.gif" align="center">       
 </div>
 <div align="right">
   
