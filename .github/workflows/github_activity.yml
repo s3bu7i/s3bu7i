@@ -1,0 +1,94 @@
+name: GitHub Activity Simulator
+
+on:
+  schedule:
+    # Gündə 4 dəfə fərqli vaxtlarda işləyir (təxmini 6 saatda bir)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  simulate-activity:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: pip install requests
+        
+    - name: Run activity script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+      run: |
+        python - <<EOF
+        import os
+        import random
+        from datetime import datetime
+        import requests
+        
+        # Konfiqurasiya
+        username = os.environ['GITHUB_USERNAME']
+        token = os.environ['GITHUB_TOKEN']
+        repo_name = "github-activity"
+        commit_messages = [
+            "Update README.md",
+            "Fix minor bugs",
+            "Refactor code",
+            "Add new feature",
+            "Update dependencies",
+            "Improve performance",
+            "Documentation updates",
+            "Code cleanup",
+            "Minor changes",
+            "Testing CI/CD"
+        ]
+        
+        def create_commit():
+            # Təsadüfi commit mesajı seç
+            message = random.choice(commit_messages)
+            
+            # Yeni fayl yarat və commit et
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            filename = f"activity_{timestamp}.txt"
+            
+            with open(filename, 'w') as f:
+                f.write(f"GitHub activity simulation - {timestamp}")
+            
+            # Git əmrləri
+            os.system('git config --global user.name "GitHub Activity Bot"')
+            os.system('git config --global user.email "actions@github.com"')
+            os.system(f'git add {filename}')
+            os.system(f'git commit -m "{message}"')
+            os.system(f'git push https://{username}:{token}@github.com/{username}/{repo_name}.git HEAD:main')
+        
+        # Əsas məntiq
+        try:
+            # Reponun olub olmadığını yoxla
+            response = requests.get(
+                f"https://api.github.com/repos/{username}/{repo_name}",
+                headers={"Authorization": f"token {token}"}
+            )
+            
+            if response.status_code == 404:
+                # Repo yoxdursa, yarat
+                requests.post(
+                    "https://api.github.com/user/repos",
+                    headers={"Authorization": f"token {token}"},
+                    json={"name": repo_name, "auto_init": True}
+                )
+                print("Repository created")
+            
+            # Commit et
+            create_commit()
+            print("Activity commit pushed successfully")
+            
+        except Exception as e:
+            print(f"Error: {str(e)}")
+        EOF
