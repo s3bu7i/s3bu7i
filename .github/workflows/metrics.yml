@@ -32,19 +32,6 @@ jobs:
           plugin_music_playlist: ${{ secrets.PLAYLIST }}
           plugin_music_limit: 9
 
-      - name: 🦑 Achievements
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: achievements.svg
-          token: ${{ secrets.TOKEN }}
-          base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
-
       - name: 🦑 Sponsors
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
