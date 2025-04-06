@@ -5,11 +5,8 @@
 name: GitHub Metrics
 
 on:
-  # 🌏 Update daily at 16:00 UTC (adjust as needed)
   schedule:
     - cron: "0 16 * * *"
-    
-  # 💡 Manual run from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -21,21 +18,17 @@ jobs:
       - name: 🦑 Media Metrics (AniList & Music)
         uses: lowlighter/metrics@latest
         with:
-          filename: medias.svg
+          filename: metrics/medias.svg
           token: ${{ secrets.TOKEN }}
           base: ""
           config_order: anilist, music
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
           
-          # AniList plugin
           plugin_anilist: yes
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites, characters
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
           
-          # Music plugin
           plugin_music: yes
           plugin_music_playlist: ${{ secrets.PLAYLIST }}
           plugin_music_limit: 9
@@ -43,11 +36,9 @@ jobs:
       - name: 🦑 Sponsor Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: sponsors.svg
+          filename: metrics/sponsors.svg
           token: ${{ secrets.TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
           
           plugin_sponsors: yes
           plugin_sponsors_past: yes
@@ -57,16 +48,13 @@ jobs:
       - name: 🦑 General GitHub Stats
         uses: lowlighter/metrics@latest
         with:
-          filename: general.svg
+          filename: metrics/general.svg
           token: ${{ secrets.TOKEN }}
           base: header
           base_indepth: yes
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
           
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           
-          # Plugins
           plugin_isocalendar: yes
 
           plugin_languages: yes
@@ -86,11 +74,9 @@ jobs:
       - name: 🦑 Splatoon Stats
         uses: lowlighter/metrics@latest
         with:
-          filename: splatoon.svg
+          filename: metrics/splatoon.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
 
           plugin_splatoon: yes
           plugin_splatoon_token: ${{ secrets.SPLATOON_TOKEN }}
