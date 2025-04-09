@@ -44,22 +44,7 @@ I love code <img src="cat-typing.gif" align="center">  and unicorns <img src="un
 	<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <table>
-    <tr>
-      <td>
-        <div style="flex: 1;">
-          <!-- Rotated Image -->
-          <img src="github-metrics.svg" alt="GitHub Metrics" style="max-width: 100%; height: 330px;"/>
-        </div>
-      </td>
-      <td>
-        <div style="margin-left: 10px;">
-          <!-- Right SVG -->
-          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" style="max-width: 70%; height: 350px; transform: rotate(90deg);"/>
-        </div>
-      </td>
-    </tr>
-  </table>
+
 </div>
 
 
